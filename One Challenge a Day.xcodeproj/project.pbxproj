@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F784AA1C56897500DAD02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F784A91C56897500DAD02D /* AppDelegate.swift */; };
+		46F784AC1C56897500DAD02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F784AB1C56897500DAD02D /* ViewController.swift */; };
+		46F784AF1C56897500DAD02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F784AD1C56897500DAD02D /* Main.storyboard */; };
+		46F784B11C56897500DAD02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F784B01C56897500DAD02D /* Assets.xcassets */; };
+		46F784B41C56897500DAD02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F784B21C56897500DAD02D /* LaunchScreen.storyboard */; };
+		46F784BF1C56897500DAD02D /* One_Challenge_a_DayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F784BE1C56897500DAD02D /* One_Challenge_a_DayTests.swift */; };
+		46F784CA1C56897500DAD02D /* One_Challenge_a_DayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F784C91C56897500DAD02D /* One_Challenge_a_DayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F784BB1C56897500DAD02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F7849E1C56897400DAD02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F784A51C56897400DAD02D;
+			remoteInfo = "One Challenge a Day";
+		};
+		46F784C61C56897500DAD02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F7849E1C56897400DAD02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F784A51C56897400DAD02D;
+			remoteInfo = "One Challenge a Day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F784A61C56897500DAD02D /* One Challenge a Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One Challenge a Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F784A91C56897500DAD02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F784AB1C56897500DAD02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F784AE1C56897500DAD02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F784B01C56897500DAD02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F784B31C56897500DAD02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F784B51C56897500DAD02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F784BA1C56897500DAD02D /* One Challenge a DayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Challenge a DayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F784BE1C56897500DAD02D /* One_Challenge_a_DayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Challenge_a_DayTests.swift; sourceTree = "<group>"; };
+		46F784C01C56897500DAD02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F784C51C56897500DAD02D /* One Challenge a DayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One Challenge a DayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F784C91C56897500DAD02D /* One_Challenge_a_DayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One_Challenge_a_DayUITests.swift; sourceTree = "<group>"; };
+		46F784CB1C56897500DAD02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F784A31C56897400DAD02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784B71C56897500DAD02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784C21C56897500DAD02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F7849D1C56897400DAD02D = {
+			isa = PBXGroup;
+			children = (
+				46F784A81C56897500DAD02D /* One Challenge a Day */,
+				46F784BD1C56897500DAD02D /* One Challenge a DayTests */,
+				46F784C81C56897500DAD02D /* One Challenge a DayUITests */,
+				46F784A71C56897500DAD02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F784A71C56897500DAD02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F784A61C56897500DAD02D /* One Challenge a Day.app */,
+				46F784BA1C56897500DAD02D /* One Challenge a DayTests.xctest */,
+				46F784C51C56897500DAD02D /* One Challenge a DayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F784A81C56897500DAD02D /* One Challenge a Day */ = {
+			isa = PBXGroup;
+			children = (
+				46F784A91C56897500DAD02D /* AppDelegate.swift */,
+				46F784AB1C56897500DAD02D /* ViewController.swift */,
+				46F784AD1C56897500DAD02D /* Main.storyboard */,
+				46F784B01C56897500DAD02D /* Assets.xcassets */,
+				46F784B21C56897500DAD02D /* LaunchScreen.storyboard */,
+				46F784B51C56897500DAD02D /* Info.plist */,
+			);
+			path = "One Challenge a Day";
+			sourceTree = "<group>";
+		};
+		46F784BD1C56897500DAD02D /* One Challenge a DayTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F784BE1C56897500DAD02D /* One_Challenge_a_DayTests.swift */,
+				46F784C01C56897500DAD02D /* Info.plist */,
+			);
+			path = "One Challenge a DayTests";
+			sourceTree = "<group>";
+		};
+		46F784C81C56897500DAD02D /* One Challenge a DayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F784C91C56897500DAD02D /* One_Challenge_a_DayUITests.swift */,
+				46F784CB1C56897500DAD02D /* Info.plist */,
+			);
+			path = "One Challenge a DayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F784A51C56897400DAD02D /* One Challenge a Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F784CE1C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a Day" */;
+			buildPhases = (
+				46F784A21C56897400DAD02D /* Sources */,
+				46F784A31C56897400DAD02D /* Frameworks */,
+				46F784A41C56897400DAD02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One Challenge a Day";
+			productName = "One Challenge a Day";
+			productReference = 46F784A61C56897500DAD02D /* One Challenge a Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F784B91C56897500DAD02D /* One Challenge a DayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F784D11C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a DayTests" */;
+			buildPhases = (
+				46F784B61C56897500DAD02D /* Sources */,
+				46F784B71C56897500DAD02D /* Frameworks */,
+				46F784B81C56897500DAD02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F784BC1C56897500DAD02D /* PBXTargetDependency */,
+			);
+			name = "One Challenge a DayTests";
+			productName = "One Challenge a DayTests";
+			productReference = 46F784BA1C56897500DAD02D /* One Challenge a DayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F784C41C56897500DAD02D /* One Challenge a DayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F784D41C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a DayUITests" */;
+			buildPhases = (
+				46F784C11C56897500DAD02D /* Sources */,
+				46F784C21C56897500DAD02D /* Frameworks */,
+				46F784C31C56897500DAD02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F784C71C56897500DAD02D /* PBXTargetDependency */,
+			);
+			name = "One Challenge a DayUITests";
+			productName = "One Challenge a DayUITests";
+			productReference = 46F784C51C56897500DAD02D /* One Challenge a DayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F7849E1C56897400DAD02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alex Zhou";
+				TargetAttributes = {
+					46F784A51C56897400DAD02D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46F784B91C56897500DAD02D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46F784A51C56897400DAD02D;
+					};
+					46F784C41C56897500DAD02D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46F784A51C56897400DAD02D;
+					};
+				};
+			};
+			buildConfigurationList = 46F784A11C56897400DAD02D /* Build configuration list for PBXProject "One Challenge a Day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F7849D1C56897400DAD02D;
+			productRefGroup = 46F784A71C56897500DAD02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F784A51C56897400DAD02D /* One Challenge a Day */,
+				46F784B91C56897500DAD02D /* One Challenge a DayTests */,
+				46F784C41C56897500DAD02D /* One Challenge a DayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F784A41C56897400DAD02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F784B41C56897500DAD02D /* LaunchScreen.storyboard in Resources */,
+				46F784B11C56897500DAD02D /* Assets.xcassets in Resources */,
+				46F784AF1C56897500DAD02D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784B81C56897500DAD02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784C31C56897500DAD02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F784A21C56897400DAD02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F784AC1C56897500DAD02D /* ViewController.swift in Sources */,
+				46F784AA1C56897500DAD02D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784B61C56897500DAD02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F784BF1C56897500DAD02D /* One_Challenge_a_DayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F784C11C56897500DAD02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F784CA1C56897500DAD02D /* One_Challenge_a_DayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F784BC1C56897500DAD02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F784A51C56897400DAD02D /* One Challenge a Day */;
+			targetProxy = 46F784BB1C56897500DAD02D /* PBXContainerItemProxy */;
+		};
+		46F784C71C56897500DAD02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F784A51C56897400DAD02D /* One Challenge a Day */;
+			targetProxy = 46F784C61C56897500DAD02D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F784AD1C56897500DAD02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F784AE1C56897500DAD02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F784B21C56897500DAD02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F784B31C56897500DAD02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F784CC1C56897500DAD02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46F784CD1C56897500DAD02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F784CF1C56897500DAD02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "One Challenge a Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F784D01C56897500DAD02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "One Challenge a Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-Day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F784D21C56897500DAD02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "One Challenge a DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Challenge a Day.app/One Challenge a Day";
+			};
+			name = Debug;
+		};
+		46F784D31C56897500DAD02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "One Challenge a DayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-DayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One Challenge a Day.app/One Challenge a Day";
+			};
+			name = Release;
+		};
+		46F784D51C56897500DAD02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "One Challenge a DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "One Challenge a Day";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46F784D61C56897500DAD02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "One Challenge a DayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Zhou.One-Challenge-a-DayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "One Challenge a Day";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F784A11C56897400DAD02D /* Build configuration list for PBXProject "One Challenge a Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F784CC1C56897500DAD02D /* Debug */,
+				46F784CD1C56897500DAD02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F784CE1C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F784CF1C56897500DAD02D /* Debug */,
+				46F784D01C56897500DAD02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F784D11C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a DayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F784D21C56897500DAD02D /* Debug */,
+				46F784D31C56897500DAD02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F784D41C56897500DAD02D /* Build configuration list for PBXNativeTarget "One Challenge a DayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F784D51C56897500DAD02D /* Debug */,
+				46F784D61C56897500DAD02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F7849E1C56897400DAD02D /* Project object */;
+}
