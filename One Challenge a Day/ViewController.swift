@@ -4,7 +4,7 @@
 //
 //  Created by Alex Zhou on 1/25/16.
 //  Copyright © 2016 Alex Zhou. All rights reserved.
-//  Github readyy
+//  Github readyyy
 
 import UIKit
 
